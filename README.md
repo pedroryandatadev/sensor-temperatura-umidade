@@ -8,21 +8,27 @@ O projeto funciona integrado a um Arduino (uma série de microcomputadores de pl
 
 # Arquitetura do Arduino
 
-<div style="display: flex; justify-content: space-between;">
-    <ul>
-        <li>Placa Arduino UNO R3</li>
-        <li>LDR Sensor</li>
-        <li>Character LCD i2c 16x02</li>
-        <li>Piezo Buzzer</li>
-    </ul>
-    <ul>
-        <li>Jumper Wire</li>
-        <li>Ethernet Shield</li>
-        <li>DHT11 sensor</li>
-        <li>Resistor 47.5 ohm</li>
-    </ul>
-    
-</div>
+<table>
+<tr>
+<td>
+<ul>
+<li>Placa Arduino UNO R3</li>
+<li>LDR Sensor</li>
+<li>Character LCD i2c 16x02</li>
+<li>Piezo Buzzer</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>Jumper Wire</li>
+<li>Ethernet Shield</li>
+<li>DHT11 sensor</li>
+<li>Resistor 47.5 ohm</li>
+</ul>
+</td>
+</tr>
+</table>
+
 
 <p align="center">
   <img src="img/arquitetura-arduino.jpeg" alt="Arquitetura Arduino" >
@@ -77,6 +83,10 @@ O projeto funciona integrado a um Arduino (uma série de microcomputadores de pl
        http://192.168.1.180
     ```
 
-### Créditos
+### Licença
 
-> Projeto criado por Pedro Ryan, Rodrigo Alves e Wesley Santos.
+```
+Desenvolvimento em 2024 por Pedro Ryan, Rodrigo Alves e Wesley Santos.
+
+Este projeto está licenciado sob a licença Apache 2.0. Consulte o arquivo LICENSE para obter mais informações.
+```
