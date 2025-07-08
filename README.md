@@ -8,27 +8,16 @@ O projeto funciona integrado a um Arduino (uma série de microcomputadores de pl
 
 # Arquitetura do Arduino
 
-<table>
-<tr>
-<td>
 <ul>
-<li>Placa Arduino UNO R3</li>
-<li>LDR Sensor</li>
-<li>Character LCD i2c 16x02</li>
-<li>Piezo Buzzer</li>
+    <li>Placa Arduino UNO R3</li>
+    <li>LDR Sensor</li>
+    <li>Character LCD i2c 16x02</li>
+    <li>Piezo Buzzer</li>
+    <li>Jumper Wire</li>
+    <li>Ethernet Shield</li>
+    <li>DHT11 sensor</li>
+    <li>Resistor 47.5 ohm</li>
 </ul>
-</td>
-<td>
-<ul>
-<li>Jumper Wire</li>
-<li>Ethernet Shield</li>
-<li>DHT11 sensor</li>
-<li>Resistor 47.5 ohm</li>
-</ul>
-</td>
-</tr>
-</table>
-
 
 <p align="center">
   <img src="img/arquitetura-arduino.jpeg" alt="Arquitetura Arduino" >
